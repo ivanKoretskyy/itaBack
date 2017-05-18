@@ -1,0 +1,27 @@
+{
+  "name": "ita",
+  "version": "1.0.0",
+  "description": "ita_study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "ita",
+    "node",
+    "express"
+  ],
+  "author": "ivan koretskyy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.9.9"
+  }
+}
